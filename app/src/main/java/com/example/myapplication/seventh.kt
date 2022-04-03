@@ -13,6 +13,7 @@ class seventh : AppCompatActivity() {
         val seventhpage_next = findViewById<Button>(R.id.seven_button)
         seventhpage_next.setOnClickListener(){
             val goto_eigth : Intent = Intent(applicationContext,eigth::class.java)
+
             startActivity(goto_eigth)
         }
     }
